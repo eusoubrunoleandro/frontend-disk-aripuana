@@ -1,0 +1,47 @@
+.animation-load{
+    width: 100%;
+    background: rgba(221, 221, 221, 0.6);
+    border-radius: 15px;
+    animation: LoadDefault 2s infinite;
+}
+
+.load-title-small{
+    height: 15px;
+}
+
+.load-title-large{
+    height: 25px;
+    margin-bottom:3px;
+}
+
+.image-apresentacao-perfil{
+    width: 570px;
+    height: 300px;
+}
+
+.load-logotipo{
+    width: 570px;
+    height: 100%;
+}
+
+.load-card{
+    width: auto;
+    background: rgb(39, 39, 39);
+}
+
+.load-promocoes{
+    width: 300px;
+}
+
+.load-promocoes .imagem-promocao{
+    margin-bottom: 10px;
+}
+
+@keyframes LoadDefault {
+    0%, 100%{
+        opacity: 50%;
+    }
+    50%{
+        opacity: 100%;
+    }
+}
