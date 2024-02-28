@@ -14,7 +14,6 @@ export default function Message({ message, clearMessages = () => {} }){
         setListMessage(removeListMessage => removeListMessage.filter( list => list.idMessage !== idMessage ))
         clearMessages()
     }
-    console.log("Teste", listMessage)
 
     const IconSelected = ({type}) => {
 
