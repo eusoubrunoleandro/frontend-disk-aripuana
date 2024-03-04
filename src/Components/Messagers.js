@@ -53,6 +53,8 @@ export default function Message({ message, clearMessages = () => {} }){
     }, [message, NavigatorHistory, Vencido, clearMessages]);
     console.log(listMessage)
 
+    return (<></>)
+
     return(
         <>
         {
