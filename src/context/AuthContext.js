@@ -1,7 +1,7 @@
 import React, { useState, useEffect, createContext, useCallback } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import Api from '~/Services/Api';
-import LogoTipo from '../assets/logotipo.png'
+import LogoTipo from '~/assets/logotipo.png'
 
 const AuthContext = createContext();
 
