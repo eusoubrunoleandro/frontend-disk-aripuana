@@ -51,9 +51,6 @@ export default function Message({ message, clearMessages = () => {} }){
             setListMessage(list => [newMessage, ...list])
         }
     }, [message, NavigatorHistory, Vencido, clearMessages]);
-    console.log(listMessage)
-
-    return (<></>)
 
     return(
         <>
